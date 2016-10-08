@@ -1,0 +1,105 @@
+#fullPage:before {
+   content: "";
+   position: fixed;
+   z-index: -1;
+   top: 0;
+   bottom: 100%;
+   left: 0;
+   right: 0;
+   background-image: url(http://wallpapercave.com/wp/ke5GFrZ.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: .75;
+    filter:alpha(opacity=75);
+    height:100%;
+    width:100%;
+ }
+#header {
+  font-size: 20px;
+  font-weight: bold;
+  top: 5px;
+}
+a {
+  padding: 50px;
+  color: black;
+}
+#About {
+  padding:  100px 100px 100px 100px;
+  border-bottom: 5px solid;
+  border-color: gray;
+}
+#aboutText {
+  color: black;
+  position: relative;
+  font-size:  24px;
+  font-weight:  bold;
+  text-align: center;
+  padding: 100px 100px 100px 100px;
+  margin: 25px 25px 25px 25px;
+}
+#RecentProjects {
+  padding:  50px 50px 50px 50px;
+  height: 0 auto;
+  border-bottom: 5px solid;
+  border-color: gray;
+}
+#recentProjectsText {
+  text-align: center;
+}
+#proj {
+  margin: auto;
+  position: relative;
+}
+#link1 {
+  font-size: 12pt; 
+  color: white; 
+  text-align: center; 
+  width: 100%; 
+  margin: 0px; 
+  margin-bottom: 10px;"
+}
+#link2 {
+  font-size: 12pt; 
+  color: white; 
+  text-align: center; 
+  width: 100%; 
+  margin: 0px; 
+  margin-bottom: 10px;"
+}
+#link3 {
+  font-size: 12pt; 
+  color: white; 
+  text-align: center; 
+  width: 100%; 
+  margin: 0px; 
+  margin-bottom: 10px;"
+}
+#Contact {
+  padding:  100px 100px 100px 100px;
+  height: 100vh;
+}
+#contactText {
+  text-align: center;
+}
+#email {
+  color: black;
+  font-weight: bold;
+  padding: 100px 25px 25px 25px;
+  text-align: center;
+}
+.row-centered {
+  text-align: center;
+}
+.col-centered {
+  display: inline-block;
+  float: none;
+  margin-right: -4px;
+}
+.btn {
+  font-size: 10px;
+  line-height: 16px;
+  display: block;
+  margin-bottom: 10px !important;
+}
+
+
